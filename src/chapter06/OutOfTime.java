@@ -12,7 +12,6 @@ public class OutOfTime {
         TimeUnit.SECONDS.sleep(1);
         timer.schedule(new ThrowTask(),1);
         TimeUnit.SECONDS.sleep(5);
-        System.out.println("程序退出。。。");
 
     }
 
